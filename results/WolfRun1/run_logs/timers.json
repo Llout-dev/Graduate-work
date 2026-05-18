@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1779116831",
+        "python_version": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\mlagents_venv_310\\Scripts\\mlagents-learn Assets/Scripts/RL/WolfRL.yaml --run-id=WolfRun1 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.13.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1779116893"
+    },
+    "total": 61.5769020000007,
+    "count": 1,
+    "self": 0.005293299996992573,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11441209999611601,
+            "count": 1,
+            "self": 0.11441209999611601
+        },
+        "TrainerController.start_learning": {
+            "total": 61.45719660000759,
+            "count": 1,
+            "self": 0.00014150000060908496,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.45703720000165,
+                    "count": 1,
+                    "self": 61.45703720000165
+                },
+                "TrainerController._save_models": {
+                    "total": 1.790000533219427e-05,
+                    "count": 1,
+                    "self": 1.790000533219427e-05
+                }
+            }
+        }
+    }
+}
